@@ -1,0 +1,19 @@
+{
+  "name": "node_apiserver_withoutframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppojun/node_APIServer_withoutFramework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppojun/node_APIServer_withoutFramework/issues"
+  },
+  "homepage": "https://github.com/ppojun/node_APIServer_withoutFramework#readme"
+}
