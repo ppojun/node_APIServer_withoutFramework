@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
   if (req.url === '/posts' && req.method === 'GET') {
     res.statusCode = 200
     res.end('List of posts')
-  } else if (req.url && /^\/posts\/[a-zA-Z0-9-_]$/.test(req.url)) {
+  } else if (req.url && /^\/posts\/[a-zA-Z0-9-_]+$/.test(req.url)) {
     res.statusCode = 200
     res.end('Some content of post')
   } else if (req.url === '/posts' && req.method === 'POST') {
