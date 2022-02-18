@@ -42,6 +42,8 @@ const posts = [
  * @property {(matches: string[], body: Object.<string, *> | undefined) => Promise<APIResponse>} callback
  */
 
+const fs = require('fs')
+
 /** @type {Route[]} */
 const routes = [
   {
